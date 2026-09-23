@@ -1,0 +1,6 @@
+python-telegram-bot
+qrcode[pil]
+Pillow
+pyzbar
+python-dotenv
+httpx

@@ -12,7 +12,7 @@ from PIL import Image
 from pyzbar.pyzbar import decode
 import os
 from dotenv import load_dotenv
-
+load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
 
 from telegram.request import HTTPXRequest
